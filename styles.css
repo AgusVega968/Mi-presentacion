@@ -1,0 +1,31 @@
+body {
+  background-color: #e7ed8d; /*aplico mi color de fondo*/
+}
+h1, h2, h3 {
+  color: #000000; /*diferencio los titulos*/
+}
+body {
+/*Modifico la tipografia general*/
+  font-family: Arial, Helvetica, sans-serif; /*tipografia*/
+  font-size: 16px;                         /*mi tamaño de letra*/
+  color: #383737;                     /*color de la letra(no afecta los titulos)*/      
+}
+.seccion-destacada {
+  padding: 24px; /* aplico espacio interno para mi seccion destacada */
+}
+.seccion-destacada {
+  background-color: #ffffff;         /* modifico fondo del cuadro */
+  border: 2px solid #cbd5e1;         /* Borde: grosor, tipo y color */
+  border-radius: 8px;                /* agrego esquinas redondeadas */
+  padding: 20px;                     /* agrego espacio interno para que el texto no toque el borde */
+    margin-bottom: 20px;               /* agrego espacio externo hacia abajo para separarla de la siguiente sección */
+} 
+.boton-contacto {
+  display: inline-block;
+  background-color: #0fb578;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
